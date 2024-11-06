@@ -1,4 +1,4 @@
-package co.com.udea.calidad.automation_test.runners.example_feature;
+package co.com.udea.calidad.automation_test.runners.city_weather;
 
 import org.junit.runner.RunWith;
 

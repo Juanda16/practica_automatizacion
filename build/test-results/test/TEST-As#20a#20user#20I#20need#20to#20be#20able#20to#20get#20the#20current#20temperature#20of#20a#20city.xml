@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="As a user I need to be able to get the current temperature of a city" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-11-06T02:08:13" hostname="MacBook-Pro-de-Juan-2.local" time="3.921">
+<testsuite name="As a user I need to be able to get the current temperature of a city" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-11-06T02:10:20" hostname="MacBook-Pro-de-Juan-2.local" time="4.705">
   <properties/>
-  <testcase name="Get the stability of the weather API" classname="As a user I need to be able to get the current temperature of a city" time="2.149"/>
-  <testcase name="Get the temperature of &quot;Cali&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.285"/>
-  <testcase name="Get the temperature of &quot;Bogota&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.364"/>
-  <testcase name="Get the temperature of &quot;Medellin&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.229"/>
-  <testcase name="Get the temperature of &quot;Cartagena&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.299"/>
-  <testcase name="Get the temperature of &quot;Barranquilla&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.322"/>
-  <testcase name="Get the temperature of &quot;Santa Marta&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.273"/>
+  <testcase name="Get the stability of the weather API" classname="As a user I need to be able to get the current temperature of a city" time="2.573"/>
+  <testcase name="Get the temperature of &quot;Cali&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.378"/>
+  <testcase name="Get the temperature of &quot;Bogota&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.225"/>
+  <testcase name="Get the temperature of &quot;Medellin&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.269"/>
+  <testcase name="Get the temperature of &quot;Cartagena&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.404"/>
+  <testcase name="Get the temperature of &quot;Barranquilla&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.382"/>
+  <testcase name="Get the temperature of &quot;Santa Marta&quot;" classname="As a user I need to be able to get the current temperature of a city" time="0.473"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
