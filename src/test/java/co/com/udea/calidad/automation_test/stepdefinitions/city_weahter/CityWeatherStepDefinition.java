@@ -46,8 +46,7 @@ public class CityWeatherStepDefinition {
         // user.should(seeThatResponse(response->response.statusCode(200)
         // .body("current.temp_c", Matchers.greaterThan(((Number) 0).floatValue()))
         // user.should(seeThatResponse(response->response.statusCode(200)
-        // .body("current.temp_c", Matchers.greaterThan(((Number) 0).floatValue()))
-       
+        // .body("current.temp_c", Matchers.greaterThan(((Number) 0).floatValue()))   
 // ));
 }
 
@@ -61,6 +60,15 @@ public class CityWeatherStepDefinition {
         // user.should(seeThatResponse(response->response.statusCode(200)));
     }
 
+    @Then("the user should see the error message")
+    public void the_user_should_see_the_error_message() {
+        // user.should(seeThatResponse(response->response.statusCode(404)));
+        VerifyStatusCode.is(400);
+    }
+
+    @When("the user enters a wrong {string}")
+    public void the_user_enters_a_wrong(String city) {
+        user.attemptsTo(ConsumerThe.service(city));    }
    
 }
 
