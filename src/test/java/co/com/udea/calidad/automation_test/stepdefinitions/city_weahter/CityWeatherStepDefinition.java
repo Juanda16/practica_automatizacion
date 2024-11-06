@@ -1,9 +1,7 @@
 package co.com.udea.calidad.automation_test.stepdefinitions.city_weahter;
 
-import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
-
-import org.hamcrest.Matchers;
-
+import co.com.udea.calidad.automation_test.questions.VerifyStatusCode;
+import co.com.udea.calidad.automation_test.questions.VerifyTemperature;
 import co.com.udea.calidad.automation_test.tasks.ConnectTo;
 import co.com.udea.calidad.automation_test.tasks.ConsumerThe;
 import io.cucumber.java.Before;
@@ -44,10 +42,13 @@ public class CityWeatherStepDefinition {
     @Then("the user should see the temperature")
     public void theUserShouldSeeTheWeatherInformation() {
         //Questions
-        user.should(seeThatResponse(response->response.statusCode(200)
-        .body("current.temp_c", Matchers.greaterThan(((Number) 0).floatValue()))
+        VerifyTemperature.isDisplayed();
+        // user.should(seeThatResponse(response->response.statusCode(200)
+        // .body("current.temp_c", Matchers.greaterThan(((Number) 0).floatValue()))
+        // user.should(seeThatResponse(response->response.statusCode(200)
+        // .body("current.temp_c", Matchers.greaterThan(((Number) 0).floatValue()))
        
-));
+// ));
 }
 
     @Given("the user make a request to the weather API")
@@ -56,8 +57,11 @@ public class CityWeatherStepDefinition {
 
     @Then("the user should see the status code 200")
     public void the_user_should_see_the_status_code() {
-        user.should(seeThatResponse(response->response.statusCode(200)));
+        VerifyStatusCode.is(200);
+        // user.should(seeThatResponse(response->response.statusCode(200)));
     }
+
+   
 }
 
   

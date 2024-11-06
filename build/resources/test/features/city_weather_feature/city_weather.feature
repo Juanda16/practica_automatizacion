@@ -1,4 +1,4 @@
-Feature: As a user I need to be able to get the weather of a city
+Feature: As a user I need to be able to get the current temperature of a city
 
   Scenario: Get the stability of the weather API
     Given the user is on the weather page

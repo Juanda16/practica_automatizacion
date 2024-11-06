@@ -19,7 +19,7 @@
  Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
 -------------------------------------------------------------------------------------
 
-[Test worker] INFO  - Test Suite Started: As a user I need to be able to get the weather of a city
-[Test worker] INFO  - Test Suite Started: As a user I need to be able to get the weather of a city
+[Test worker] INFO  - Test Suite Started: As a user I need to be able to get the current temperature of a city
+[Test worker] INFO  - Test Suite Started: As a user I need to be able to get the current temperature of a city
 ]]></system-err>
 </testsuite>
